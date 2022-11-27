@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'random_quiz1.urls'
+ROOT_URLCONF = 'random_quiz.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'random_quiz1.wsgi.application'
+WSGI_APPLICATION = 'random_quiz.wsgi.application'
 
 
 # Database
